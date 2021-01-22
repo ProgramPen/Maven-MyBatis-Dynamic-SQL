@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Maven-MyBatis-Dynamic SQL/Maven-MyBatis-Dynamic SQL.iml" filepath="$PROJECT_DIR$/../Maven-MyBatis-Dynamic SQL/Maven-MyBatis-Dynamic SQL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MavenExample-02.iml" filepath="$PROJECT_DIR$/MavenExample-02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Servlet-Service多功能实现/Servlet-Service多功能实现.iml" filepath="$PROJECT_DIR$/../Servlet-Service多功能实现/Servlet-Service多功能实现.iml" />
+    </modules>
+  </component>
+</project>

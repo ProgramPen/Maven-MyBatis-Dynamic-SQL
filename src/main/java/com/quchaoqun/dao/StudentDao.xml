@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.quchaoqun.dao.StudentDao">
+    <!--查询语句-->
+    <select id="findAll" resultType="com.quchaoqun.entity.Student">
+        select * from t_student order by id
+    </select>
+
+    <!--单个参数查询-->
+    <select id="findSimple" parameterType="java.lang.Integer" resultType="com.quchaoqun.entity.Student">
+        select * from t_student where id=#{id}
+    </select>
+
+    <!--多个参数查询，@Param命名参数-->
+    <select id="findSimple1" resultType="com.quchaoqun.entity.Student">
+        select * from t_student where name=#{myName} and email=#{myEmail}
+    </select>
+
+    <!--多个参数查询，java对象传入参数-->
+    <select id="findSimple2" resultType="com.quchaoqun.entity.Student">
+        select * from t_student where name=#{name} and email=#{email}
+    </select>
+
+
+    <insert id="insertStu">
+        insert into t_student(name,email,age) values (#{name},#{email},#{age})
+    </insert>
+
+
+</mapper>

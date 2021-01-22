@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Servlet-Service多功能实现:war exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/Servlet_Service_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Servlet-Service多功能实现/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Servlet-Service多功能实现" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
